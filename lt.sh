@@ -13,7 +13,6 @@ export SELENIUM_REMOTE_CAPABILITIES="{ \
   \"version\": \"latest\", \
   \"platform\": \"Windows 10\", \
   \"webSocketUrl\": true, \
-  \"seleniumVersion\": \"latest\", \
   \"LT:Options\": { \
     \"build\": \"Siraj experiments\", \
     \"name\": \"PW-Exp\", \
