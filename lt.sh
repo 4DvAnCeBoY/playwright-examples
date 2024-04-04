@@ -10,7 +10,7 @@ export SELENIUM_REMOTE_URL="https://${LT_USERNAME}:${LT_ACCESS_KEY}@hub.lambdate
 
 # Define Selenium Remote Capabilities with the necessary details including WebSocketUrl
 export SELENIUM_REMOTE_CAPABILITIES="{ \
-  \"browserName\": \"Chrome\", \
+  \"browserName\": \"MicrosoftEdge\", \
   \"version\": \"latest\", \
   \"seleniumVersion\": \"latest\", \
   \"platform\": \"MacOS Ventura\", \
