@@ -7,11 +7,14 @@
 # Set the LambdaTest Selenium Grid URL with the credentials
 export SELENIUM_REMOTE_URL="https://${LT_USERNAME}:${LT_ACCESS_KEY}@hub.lambdatest.com/wd/hub"
 
+
 # Define Selenium Remote Capabilities with the necessary details including WebSocketUrl
 export SELENIUM_REMOTE_CAPABILITIES="{ \
   \"browserName\": \"Chrome\", \
   \"version\": \"latest\", \
-  \"platform\": \"Windows 10\", \
+  \"seleniumVersion\": \"latest\", \
+  \"platform\": \"MacOS Ventura\", \
+  \"seCdp\": true, \
   \"webSocketUrl\": true, \
   \"LT:Options\": { \
     \"build\": \"Siraj experiments\", \
